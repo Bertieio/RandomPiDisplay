@@ -9,7 +9,8 @@ import time
 import os
 
 # Login information contained below should be kept secure
-
+os.system("sudo modprobe w1-therm")
+os.system("sudo modprobe w1-gpio")
 while True:
 	db = MySQLdb.connect(host="", #your host, usually localhost
                      user="", #your username
