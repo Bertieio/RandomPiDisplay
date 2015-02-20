@@ -10,6 +10,8 @@ echo "The ";
 echo  $len;
 echo  " decimals at ";
 echo $pos;
+echo "to ";
+echo $pos+$len;
 echo " out of 4194294 ";
 echo " are ";
 echo $out;
