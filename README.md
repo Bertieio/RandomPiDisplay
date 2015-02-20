@@ -1,9 +1,3 @@
-RPiTemp2SQL
+Displays a random amount of Pi digits from a random place 
 ===========
-
-Requires: python-MySQLdb
-Basic program that gets the temp from a DS18B20, the Pi's CPU and the time then uploads it to a database
-
-Here is the webpage I use to show it: http://bertie.io/TempPrintR.php
-
-More info and set up can be found here: https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/
+Please note this sends a request to my server so if you are expecting a large amount of hits please take the file at bertie.io/Pi.txt and edit the code to route it to where ever you place the file
